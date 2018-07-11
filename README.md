@@ -14,10 +14,12 @@ Let's learn some Two Step! We can use Ruby loops to help us out.
 
 ## Part 1: The First Steps
 
-In `two_step_and_repeat.rb`, Implement the `first_steps` method. This method
+#In `two_step_and_repeat.rb`, Implement the `first_steps` method. This method
 should include a loop that outputs the following in your terminal endlessly,
 until you press `ctrl+c`.
 
+
+loop do
 ```ruby
 puts "Right foot back"
 sleep(0.5)
